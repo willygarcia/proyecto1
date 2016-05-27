@@ -6,10 +6,17 @@ def prob_1 (a):
 
 def prob_2 (F):
 	celsius = (F - 32)* 5/9
-	print(celsius)
+	return celsius
 
+def prob_3 (b,p): 
+	potencia = b ** p 
+	return potencia
 
-def prob_3 (): 
+def prob_4 (h): 
+	hilera = ("*"(h/2)"2013" "*"(h/2))
+	return hilera 
+def prob_5 ( ): 
+	
 
 
 
