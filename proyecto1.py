@@ -12,11 +12,7 @@ def prob_3 (b,p):
 	potencia = b ** p 
 	return potencia
 
-def prob_4 (h): 
+def prob_4 (n , palabra): 
 	hilera = ("*"(h/2)"2013" "*"(h/2))
 	return hilera 
-def prob_5 ( ): 
-	
-
-
-
+def prob_5 ( ):
