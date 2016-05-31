@@ -9,10 +9,17 @@ def prob_2 (F):
 	return celsius
 
 def prob_3 (b,p): 
-	potencia = b ** p 
-	return potencia
+	res = 1
+	i = 0
+	for i in range(p):
+		res = res * b
+		return(res)
 
-def prob_4 (n , palabra): 
-	hilera = ("*"(h/2)"2013" "*"(h/2))
-	return hilera 
+def prob_4 (n , p): 
+	l = len(p)	
+	cas=(n-l)/2
+
 def prob_5 ( ):
+
+
+
